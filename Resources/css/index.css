@@ -1,0 +1,165 @@
+
+a {
+    text-decoration: none;
+}
+    
+a:visited {
+    text-decoration: none;
+}
+    
+    
+.Links_to_internal_pages {
+    text-align: center;
+}
+
+.one, .two, .three, .four, .five, .six, .seven {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    width: 252px;
+    height: 61px;
+    color:#f4f0d9;
+    padding: 30px 80px;  
+}
+
+body {
+    background: #638c80;
+    opacity: 1;
+    position: relative;
+    top: 70px;
+}
+
+.home {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;   
+    background-color: black;
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+}
+
+.home h3 {
+    color:#f4f0d9;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.home p {
+    color:#f4f0d9;
+    text-align: center;
+    font-size: 42px;
+}
+
+.About {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;   
+    background-color: blue;
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+}
+
+.About h2{
+    color:#f4f0d9;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.About ul {
+    color:#f4f0d9;
+    font-size: 42px;
+}
+
+.Our_Event {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;   
+    background-color: rgb(255, 0, 179);
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+}
+
+.Our_Event h2{
+    color:#f4f0d9;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.People {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;   
+    background-color: green;
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+}
+
+.People h2{
+    color:#f4f0d9;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.News {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;   
+    background-color: rebeccapurple;
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+}
+
+.News h2{
+    color:#f4f0d9;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.News h4{
+    color:#f4f0d9;
+    font-size: 42px;
+}
+
+.Contact {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;   
+    background-color: orange;
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+}
+
+.Contact h2{
+    color:#f4f0d9;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.Contact form{
+    color:#f4f0d9;
+    font-size: 42px;
+    text-align: center;
+}
+
+.Sponsors {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;   
+    background-color: orange;
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+}
+}
