@@ -1,4 +1,10 @@
 
+
+* {
+    box-sizing: border-box;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -7,43 +13,46 @@ a:visited {
     text-decoration: none;
 }
 
+
+.About, .Our_Event, .People, .News, .Contact, .Sponsors {
+    background-color: #55AF84;
+}
+
 .Links_to_internal_pages {
-    text-align: center;
-    margin: 30px 0px;
-    padding: 20px 50px 40px 50px;  
-    width: 80%;
-    height: 10%;
+    text-align: center; 
+    /*
+    z-index: 10;
+    */
+    display: flex;
 }
 
 .one, .two, .three, .four, .five, .six, .seven {
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    color:#f4f0d9;
-    padding: 20px 50px 50px 50px;  
-    
+    color:white;
+    padding: 40px 50px 60px 50px;  
 }
-
 
 body {
-    background: #4461ac;
-    opacity: 1;
-    position: relative;
+    background-color: #4461AC;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
+
 .home {
-    font-family: 'Courier New', Courier, monospace;
+    flex: 1;
     font-style: normal;
-    color:white;
     font-weight: bold;
-    width: 90%;
-    height: 70%;
-    text-align: left;
-    margin: 0 auto;
-    padding: 50px 100px;
+    text-align: center;
     background-image: url(https://live.staticflickr.com/65535/50015690987_0119ac416a_b.jpg);
-    background-size: 100%;
+    height: 60%;
+    color: white;
 
 }
 
@@ -51,122 +60,133 @@ body {
 .home h3 { 
     text-transform: uppercase;
     font-size: 42px;
+    font-family: 'Notable', sans-serif;
 
 }
 
 .home p {
     font-size: 24px;
     line-height: 42px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .About {
-    font-family: 'Courier New', Courier, monospace;
+
+    flex: 2;
+    width: 85%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;   
-    background-color: blue;
-    margin: 100px auto;
     padding: 30px;
     width: 85%;
     height: 1000px;  
+    margin: 100px auto;
 }
 
 .About h2{
-    color:#f4f0d9;
+    color:black;
     text-align: center;
     font-size: 52px;
     text-transform: uppercase;
 }
 
 .About ul {
-    color:#f4f0d9;
+    color:black;
     font-size: 42px;
 }
 
 .Our_Event {
-    font-family: 'Courier New', Courier, monospace;
+    flex: 3;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;   
-    background-color: rgb(255, 0, 179);
-    margin: 100px auto;
     padding: 30px;
     width: 85%;
-    height: 1000px;  
+    height: 1000px; 
+    margin: 100px auto;
 }
 
 .Our_Event h2{
-    color:#f4f0d9;
+    color:black;
     text-align: center;
     font-size: 52px;
     text-transform: uppercase;
 }
 
 .People {
-    font-family: 'Courier New', Courier, monospace;
+    flex: 4;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;   
-    background-color: green;
-    margin: 100px auto;
     padding: 30px;
     width: 85%;
-    height: 1000px;  
+    height: 1000px; 
+    margin: 100px auto;
 }
 
 .People h2{
-    color:#f4f0d9;
+    color:black;
     text-align: center;
     font-size: 52px;
     text-transform: uppercase;
 }
 
 .News {
-    font-family: 'Courier New', Courier, monospace;
+    flex: 5;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;   
-    background-color: rebeccapurple;
-    margin: 100px auto;
     padding: 30px;
     width: 85%;
-    height: 1000px;  
+    height: 1000px; 
+    margin: 100px auto;
 }
 
 .News h2{
-    color:#f4f0d9;
+    color:black;
     text-align: center;
     font-size: 52px;
     text-transform: uppercase;
 }
 
 .News h4{
-    color:#f4f0d9;
+    color:black;
     font-size: 42px;
 }
 
 .Contact {
-    font-family: 'Courier New', Courier, monospace;
+    flex: 6;
+    font-family:'Montserrat', sans-serif;
     font-weight: 800;   
-    background-color: orange;
-    margin: 100px auto;
     padding: 30px;
     width: 85%;
-    height: 1000px;  
+    height: 1000px; 
+    margin: 100px auto;
 }
 
 .Contact h2{
-    color:#f4f0d9;
+    color:black;
     text-align: center;
     font-size: 52px;
     text-transform: uppercase;
 }
 
 .Contact form{
-    color:#f4f0d9;
+    color:black;
     font-size: 42px;
     text-align: center;
 }
 
 .Sponsors {
-    font-family: 'Courier New', Courier, monospace;
+    flex: 7;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;   
-    background-color: orange;
+    padding: 30px;
+    width: 85%;
+    height: 1000px; 
+    margin: 100px auto;
+    /*
     margin: 100px auto;
     padding: 30px;
     width: 85%;
     height: 1000px;  
+    */
 }
 
