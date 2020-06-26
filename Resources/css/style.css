@@ -1,6 +1,4 @@
-html {
-    font-size: 100%;
-}
+
 a {
     text-decoration: none;
 }
@@ -11,47 +9,214 @@ a:visited {
 
 body {
     background-color: #0C486A;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 85%;
+    color: FFFFF8;
+    font-family: 'NTR', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-hr {
+.divider_line {
     color: FFFFF8;
-    width: 85%;
+    width: 100%;
 }
 
 .Links_to_internal_pages {
     display: flex;
-    font-family: 'NTR', sans-serif;
-    color: FFFFF8;
-    
+    align-items: center;
+    justify-content: space-around;
 }
 
 .logo {
+    text-align: center;
+}
+
+.logo, .one, .two, .three, .four, .five {
+    flex: 1;
+    font-size: 1.5rem;
+    
+}
+
+.Home_heading {
+    text-align: center;
+    font-size: 4rem; 
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contain-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: #2C8EA4;
+}
+
+.box-1 {
+    flex: 1;
+    font-size: 1.5rem;
+    padding: 2% 2% 2% 2%;
+}
+
+.box-2 {
+    flex: 1.4;
+}
+
+.contain-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+    background-color: #2C8EA4;
+}
+
+.box-3 {
     flex: 1;
 }
 
-.one {
-    flex: 2;
+.box-4 {
+    flex: 1.1;
+    font-size: 1.5rem;
+    padding: 2% 2% 2% 2%;
 }
 
-.two{
-    flex: 3;
+.contain-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: #2C8EA4;
 }
 
-.three {
-    flex: 4;
+.box-5 {
+    flex: 1;
+    font-size: 1.5rem;
+    padding: 2% 2% 2% 2%;
 }
 
-.four {
-    flex: 5;
+.box-6 {
+    flex: 1.3;
 }
 
-.five {
-    flex: 6;
+.contain-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+    background-color: #2C8EA4;
 }
 
-.home_heading {
+.box-7 {
+    flex: 1.4;
+}
+
+.box-8 {
+    flex: 1;
+    font-size: 1.5rem;
+    padding: 2% 2% 2% 2%;
+}
+
+.Our_Event {
+    flex:1;
+    background-color: FFFFF8;
+    margin: 10% 0% 5% 0%;
+    color: black;
+}
+
+.Our_Event_heading_1 {
     text-align: center;
-    font-family: 'NTR', sans-serif;
-    color: FFFFF8;
-    
+    font-size: 2rem;
+    margin: 2% 0% 2% 0%;
+}
+
+.event_pics {
+    display: flex;
+}
+
+.event_pic_1, .event_pic_2, .event_pic_3 {
+    flex: 1;
+    width: 20%;
+    height: 30%;
+}
+
+.Our_event_content {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5% 0% 2% 0%;
+}
+
+.Panelists {
+    display: flex;
+    align-items: center;
+}
+
+.Our_Event_heading_2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Our_Event_heading_2, .panelist_pic_1, .panelist_pic_2, .panelist_pic_3 {
+    flex: 1;
+    height: 27%;
+    text-align: center;
+}
+
+.Contact {
+    text-align: center;
+    background-color: #2C8EA4;
+    font-size: 2rem;
+}
+
+.News {
+    text-align: center;
+    background-color: #2C8EA4;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.People {
+    flex:1;
+    background-color: FFFFF8;
+    margin: 10% 0%;
+    color: black;
+    padding: 1% 5% 5% 5%;
+}
+
+.People_heading_2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3% 0% 2% 0%;
+}
+
+.members_pics_1 {
+    display: flex;
+}
+
+.members_pics_2 {
+    display: flex;
+}
+
+.member_1, .member_2, .member_3 {
+    flex: 1;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+}
+
+.member_4, .member_5, .member_6 {
+    flex: 1;
+    width: 20%;
+    height: 30%;
+    text-align: center;
 }
