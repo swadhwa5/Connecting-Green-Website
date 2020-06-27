@@ -7,6 +7,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="YAWdQIhw"></script>
 	<header>
 		<nav>
 			<section class = "Links_to_internal_pages">
@@ -24,7 +26,7 @@
 	<section class= "Home" id = "Home">
 		<section class = "contain-1">
 			<div class = "box-1">We are a student run organization connecting students with Green Jobs and opportunities through an Annual Panel and Networking session.</div> 
-			<div class = "box-2"><img src = "https://live.staticflickr.com/65535/50043287451_fbeb701dc5_b_d.jpg" height="100%" width="100%"></div>
+			<div class = "box-2"><img src = "https://live.staticflickr.com/65535/50050445592_b893dddf04_o_d.jpg" height="100%" width="100%"></div>
 		</section>	
 		<section class = "contain-2">
 			<div class = "box-3"><img src = "https://live.staticflickr.com/65535/50042729488_d60e21abdd_o_d.jpg" height="100%" width="100%"></div>
@@ -35,7 +37,7 @@
 			<div class = "box-6"><img src = "https://live.staticflickr.com/65535/50043287486_710c7b3612_o_d.jpg" height="100%" width="100%"></div>
 		</section>
 		<section class = "contain-4">
-			<div class = "box-7"><img src = "https://live.staticflickr.com/65535/50043542382_70f76ba81c_o_d.jpg" height="100%" width="100%"></div>
+			<div class = "box-7"><img src = "https://live.staticflickr.com/65535/50049621653_d3e170123a_o_d.jpg" height="100%" width="100%"></div>
 			<div class = "box-8">By connecting students with employers and influencers in the field of sustainability , we hope to encourage students to make green impacts on the world.</div>
 		</section>
 	</section>
@@ -94,7 +96,7 @@
 		<section class = "members_pics_1">
 			<div class = "member_1">
 				<figure>
-					<img src="https://greenjobs.johnshopkins.edu/img/team_contact_pics/nancy.png" height="80%" width="80%">
+					<img id = "1" src="https://greenjobs.johnshopkins.edu/img/team_contact_pics/nancy.png" height="80%" width="80%">
 					<figcaption>NANCY WANG</figcaption>
 				</figure>
 			</div>
@@ -136,26 +138,58 @@
 	<section class = "Contact" id = "Contact">
 		<h2>CONTACT US!</h2>
 		<form action = "" method = "GET"><!--fill -->
-			<h2>Subscribe to our Mailing List!</h2>
-			<label for = "email id">Enter your Email id:</label>
-			<input type="text" name="email id" id = "email id" required>
+			<form action="action_page.php">
+				<div class="container_heading">
+				  <h2>Subscribe to our Mailing List!</h2>
+				</div>			  
+				<div class="container">
+				  <input type="text" placeholder="Name" name="name" required>
+				  <input type="text" placeholder="Email address" name="mail" required>
+				</div>
+			  
+				<div class="container">
+				  <input type="submit" value="Subscribe">
+				</div>
+			</form>
 			<br>
 			<h2>Submit Feedback:</h2>
 			<textarea id = "feedback" name = "feedback" rows="3" cols="40"></textarea>
 			<p>Or fill out this form: <a href=""></a> <!-- put in link for form --></p>
-			<a href="https://www.facebook.com/jhugreen/" style="color: inherit" target = "__blank">Facebook</a><!-- put in link -->
-			<a href="" target = "__blank">Instagram</a><!-- put in link -->
-			<a href="https://www.linkedin.com/company/64657062/admin/" style="color: inherit" target = "__blank">Linkedin</a><!-- put in link -->
+			<section class="social_media_links">
+				<span class = "fb">
+					<a href="https://www.facebook.com/jhugreen/" style="color: inherit" target = "__blank">Facebook</a><!-- put in link -->
+					<span class ="fb-page" data-href="https://www.facebook.com/jhugreen/" data-tabs="timeline" data-width="" data-height="70" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/jhugreen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/jhugreen/">JHU Connecting Green</a></blockquote></span>
+				</span>
+				<a href="https://www.instagram.com/jhu.connecting.green/" target = "__blank" style="color: inherit"><img class = "ig" src = "https://www.clipartmax.com/png/small/176-1766224_instagram-logos-in-vector-format-free-download-instagram-logo-small-size.png"></a><!-- put in link -->
+				<a href="https://www.linkedin.com/company/64657062/admin/" style="color: inherit" target = "__blank">Linkedin</a><!-- put in link -->
+				<script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+				<script type="IN/FollowCompany" data-id="64657062" data-counter="bottom"></script>
+			</section>
 		</form>
 	</section>
 
 	<section class = "News" id = "News">
-		<h2>News</h2>
+		<h2>We are in the News!</h2>
 		<h4>This year we got the opprtunity to present our initiative at the JHU Sustainability Symposium along with many more amazing students! You can find the link to our poster on <a href="https://sustainability.jhu.edu/about/sustainability-leadership-council/slc-symposium/" target = "__blank">this</a> website under 'Poster Session'</h4>
 		
 		<h4>We also had the honor of working with Ms. Smiti Nathan from the life deisgn Lab who helped us immensely in organising our event. She very kindly wrote a blog article on the process which can be found <a href="https://lifedesignlog.com/3-reasons-to-consider-reframing-a-good-event/" target = "__blank">here.</a></h4>
 	</section>
 	
-	<section id = "Sponsors"></section>
+	<section class = "Affiliations" id = "Affiliations">
+		<h2 class = "Affiliations_heading">AFFILIATIONS</h2>
+		<section class = "three_images_1">
+			<img class = "pic_1" src = "https://live.staticflickr.com/65535/50043287881_04022c9b9c_m_d.jpg" height="100%" width="100%">
+			<img class = "pic_2" src = "https://live.staticflickr.com/65535/50042729613_d2d6a8357f_o_d.png" height="100%" width="100%">
+			<img class = "pic_3" src = "https://live.staticflickr.com/65535/50042729678_0a32eafb97_q_d.jpg" height="100%" width="100%">
+		</section>
+		<section class = "three_images_2">
+			<img class = "pic_4"src = "https://live.staticflickr.com/65535/50043287716_7a93b5de4d_m_d.jpg" height="100%" width="100%">
+			<img class = "pic_5" src = "https://live.staticflickr.com/65535/50042729908_a3535b8853_q_d.jpg" height="100%" width="100%">
+			<img class = "pic_6" src = "https://live.staticflickr.com/65535/50043287621_b2c0864e09_o_d.png" height="100%" width="100%">
+		</section>
+	</section>
+
+	
+	<script src="script.js"></script>
 </body>
 </html>
