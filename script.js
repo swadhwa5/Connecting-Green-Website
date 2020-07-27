@@ -7,7 +7,7 @@ function replaceContent1() {
 mem1.addEventListener("click", replaceContent1);
 
 var slideShow = function(container) {
-    this.images = [];
+    this.images = []a;
     this.curImage = 0;
     for (i = 0; i < container.childElementCount; i++) {
         this.images.push(container.children[i]);
